@@ -3,7 +3,7 @@ description:      "I make people smile. Not by being funny, No, but by crafting 
 logo:             
 disqus_shortname: abergs
 # Assign a default image for your site's header and footer
-default_bg:       wallpaper-284806.jpg
+default_bg:       new_head.jpg
 search:           true
 share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
