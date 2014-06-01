@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SassyStudio: Visual Studio 2013 SASS support
-headline: "Want to post code in markdown easily?"
+headline: "Less sassy"
 categories: development
 tags: 
   - SASS
