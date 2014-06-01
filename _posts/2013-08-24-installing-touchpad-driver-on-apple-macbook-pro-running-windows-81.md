@@ -2,7 +2,7 @@
 layout: post
 title: Installing Touchpad driver on Apple Macbook Pro running Windows 8.1
 headline: "A helpful guide"
-categories: development
+categories: personal
 tags: 
   - Apple
   - Windows
