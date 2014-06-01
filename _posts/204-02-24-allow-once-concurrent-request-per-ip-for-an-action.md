@@ -6,7 +6,7 @@ categories: personal
 tags: 
   - ASP.NET
   - WebApi
-comments: false
+comments: true
 mathjax: null
 featured: false
 published: true
