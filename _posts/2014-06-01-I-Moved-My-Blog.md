@@ -1,7 +1,6 @@
 ---
 layout: post
 title: I Moved my blog to Github Pages
-description: "A short story as startuper, Azure, Jekyll and Github Pages"
 headline: "Did I hear a peny?"
 categories: personal
 tags: 
@@ -13,7 +12,7 @@ featured: true
 published: true
 ---
 
-This is a short story about saving a couple of bucks a month and how I switched blogging platform.
+My short story about saving a couple of bucks a month and how I switched blogging platform.
 
 I'm starting a company together with my best friend, Jacob. I'm currently employed at [Caspeco](http://caspeco.se) and for a while I will only work 60% while working on my startup 40% of normal working hours. As you understand, this puts my salary off by 40%. On top of this I doubled my rent expense due to my (now ex-)girlfriend moving out.
 
