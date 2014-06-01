@@ -7,6 +7,7 @@ tags: [sample post, images, test]
 imagefeature: picture-15.jpg
 comments: true
 share: true
+published:false
 ---
 
 Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Images are responsive and are opened in a Magnific Popup lightbox if you link a larger image to the entry. Also if you link a larger image, the image thumbs uses CSS3 transitions to turn B&W and change back to color on mouse-hover. Each instance of `figure` is auto-numbered and displayed in the caption.
