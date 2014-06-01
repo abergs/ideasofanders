@@ -4,8 +4,7 @@ title: "Launching": TabsToSpaces.com. For your markdown code paste's
 headline: "Want to post code in markdown easily?"
 categories: development
 tags: 
-  - ASP.NET
-  - IIS
+  - Powershell
 comments: true
 mathjax: null
 featured: false
