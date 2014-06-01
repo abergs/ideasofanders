@@ -3867,9 +3867,6 @@ a#slide:hover{
     background:#39c492
     }
 
-a#slide:after{
-    content:"F"
-    }
 
 a#slide.slide:after{
     position:absolute;
