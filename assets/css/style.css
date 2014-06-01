@@ -3860,41 +3860,19 @@ a#slide{
     color:#fff;
     background:#262626;
     border-radius:3px;
-    z-index:31
+    z-index:31;
+    padding: 0px 15px;
+    content: "Menu";
     }
 
 a#slide:hover{
     background:#39c492
     }
 
-a#slide:after{
-    content: "\e012";
-    display: inline;
-    width: auto;
-    height: auto;
-    line-height: normal;
-    vertical-align: baseline;
-    background-image: none;
-    background-position: 0% 0%;
-    background-repeat: repeat;
-    margin-top: 0;
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
-    text-decoration: inherit;
-    -webkit-font-smoothing: antialiased;
-    }
-
-a#slide.slide:after{
-    position:absolute;
-    content:"X";
-    top:11px;
-    left:50%;
-    width:40px;
-    height:40px;
-    margin:0 0 0 -20px;
-    font:18px "icon" !important;
-    vertical-align:middle
+a#slide.slide{
+    
+    content:"Close";
+   
     }
 
 /*      Sidebar     */
