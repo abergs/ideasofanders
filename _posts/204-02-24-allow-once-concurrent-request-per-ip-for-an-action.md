@@ -2,7 +2,7 @@
 layout: post
 title: Allow one concurrent request per IP for an action
 headline: "Hold your horses"
-categories: personal
+categories: development
 tags: 
   - ASP.NET
   - WebApi
