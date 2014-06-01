@@ -3868,7 +3868,7 @@ a#slide:hover{
     }
 
 a#slide:after{
-    content: "\f039";
+    content: "\e012";
     display: inline;
     width: auto;
     height: auto;
