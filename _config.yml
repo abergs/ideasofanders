@@ -1,5 +1,5 @@
 title:            "Ideas Of Anders &Aring;berg"
-description:      "I make people smile. Not by being funny, No, but by crafting applications and interfaces. Below you will find some of my ideas. Enjoy."
+description:      "I make people smile. Not by being funny, No, but by crafting applications and interfaces. Here you will find some of my ideas. Enjoy."
 logo:             
 disqus_shortname: abergs
 # Assign a default image for your site's header and footer
@@ -25,7 +25,7 @@ owner:
   avatar:         abergs.jpg
   email:          anders@andersaberg.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    I make people smile. Not by being funny, No, but by crafting applications and interfaces. Below you will find some of my ideas. Enjoy.
+  description:    I make people smile. Not by being funny, No, but by crafting applications and interfaces. I love the web as a platform and is most likely to talk about Typescript, Javascript, .NET and Open Source. Here you will find some of my ideas. Enjoy.
   # Social networking links used in footer. Update and remove as you like.
   # To register at HMFAYSAL SOCIAL, visit http://social.hmfaysal.tk
   twitter:        bigcheeseanders
