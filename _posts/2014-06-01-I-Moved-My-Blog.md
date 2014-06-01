@@ -1,6 +1,6 @@
  ---
 layout: post
-title: Moved my blog to Github Pages
+title: I Moved my blog to Github Pages
 description: "A short story as startuper, Azure, Jekyll and Github Pages"
 headline: "Did I hear a peny?"
 categories: personal
