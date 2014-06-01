@@ -11,12 +11,15 @@ featured: false
 published: true
 ---
 I'm launching a little tool that makes my life happier every time I use it.
+
 ### The problem I solve
+
 Okay. So I paste code from my IDE to my blog when showing code examples and snippets. In order for markdown to get the code block formation, this required 4 spaces in the beginning.
 
 Sometimes the code is intendented by tabs, sometimes not. But every time there are some rows that are not intendented at all (e.g. code at the base/root level scope).
 
 ### The solution
+
 I searched for an fast and easy online converter but there wasn't any. No one covered the *IDE to markdown* scenario.
 So I built a powershell script that was clumsy and "slow":
 
