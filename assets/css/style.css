@@ -3862,18 +3862,14 @@ a#slide{
     border-radius:3px;
     z-index:31;
     padding: 0px 15px;
-    content: "Menu";
     }
 
 a#slide:hover{
     background:#39c492
     }
 
-a#slide.slide{
-    
-    content:"Close";
-   
-    }
+
+
 
 /*      Sidebar     */
 
