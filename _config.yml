@@ -1,7 +1,7 @@
 title:            "Ideas Of Anders &Aring;berg"
 description:      "I make people smile. Not by being funny, No, but by crafting applications and interfaces. Here you will find some of my ideas. Enjoy."
 logo:             
-disqus_shortname: abergs
+disqus_shortname: andersaberg
 # Assign a default image for your site's header and footer
 default_bg:       header2.jpg
 search:           true
@@ -41,7 +41,7 @@ owner:
   google_plus:    
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
+google_analytics: UA-37656767-1
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
