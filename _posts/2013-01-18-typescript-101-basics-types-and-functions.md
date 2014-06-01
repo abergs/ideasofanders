@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Typescript 101: Basics, Types and Functions
+title: Typescript 101&#58; Basics, Types and Functions
 headline: "Todays lesson..."
 categories: development
 tags: 

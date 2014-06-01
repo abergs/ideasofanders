@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quick fix: IIS .woff font file 404 not found in asp.net mvc"
+title: Quick fix&#58; IIS .woff font file 404 not found in asp.net mvc
 headline: "Who's there?"
 categories: development
 tags: 
@@ -11,6 +11,7 @@ mathjax: null
 featured: false
 published: true
 ---
+
 This is just a very quick "bugfix" I found.  
 When using Twitter Bootstrap Glyphicons the font comes in a lot of flavors, including .ttf and woff. Somehow it seems that IIS will return a 404 not found when requesting the .woff file -- even though the file definitely exists and the URL is correct. The problem lies within the MIME-types that IIS use.
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Anders Åberg
+permalink: /about/
 ---
 <figure>
   <img src="{{ site.url }}/images/abergs.jpg" alt="Anders Åberg">

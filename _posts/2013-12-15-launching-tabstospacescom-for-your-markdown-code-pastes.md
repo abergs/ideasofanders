@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Launching": TabsToSpaces.com. For your markdown code paste's
+title: "Launching"&#58; TabsToSpaces.com. For your markdown code paste's
 headline: "Want to post code in markdown easily?"
 categories: development
 tags: 
