@@ -1,6 +1,6 @@
 ---
 layout: post
-title: quick-fix-iis-woff-font-file-404-not-found-in-aspnet-mvc
+title: Quick fix: IIS .woff font file 404 not found in asp.net mvc
 headline: "Who's there?"
 categories: development
 tags: 
