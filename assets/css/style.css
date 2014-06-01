@@ -3867,6 +3867,23 @@ a#slide:hover{
     background:#39c492
     }
 
+a#slide:after{
+    content: "\f002";
+    display: inline;
+width: auto;
+height: auto;
+line-height: normal;
+vertical-align: baseline;
+background-image: none;
+background-position: 0% 0%;
+background-repeat: repeat;
+margin-top: 0;
+font-family: FontAwesome;
+font-weight: normal;
+font-style: normal;
+text-decoration: inherit;
+-webkit-font-smoothing: antialiased;
+    }
 
 a#slide.slide:after{
     position:absolute;
