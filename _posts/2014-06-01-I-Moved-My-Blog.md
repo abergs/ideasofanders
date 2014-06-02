@@ -6,7 +6,7 @@ categories: personal
 tags: 
   - blogging
   - jekyll
-comments: false
+comments: true
 mathjax: null
 featured: true
 published: true
