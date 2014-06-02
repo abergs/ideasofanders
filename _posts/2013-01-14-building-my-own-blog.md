@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building my own blog
-headline: Seriosuley? In 2013?
+headline: "Seriousley? In 2013?"
 categories: personal
 tags: 
 	- blogging
