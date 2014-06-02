@@ -1,15 +1,16 @@
 ---
 layout: post
-title: Building my own blog
-headline: "Seriousley? In 2013?"
+title: "Building my own blog"
+headline: "Talk about reinventing the wheel..."
 categories: personal
-tags: 
+tags:
 	- blogging
 comments: true
 mathjax: null
 featured: false
 published: true
 ---
+
 It might seem obscure to build a blog from the ground up in the year of 2013. There is free and excellent alternatives as Wordpress, Tumblr, blogfornet, or other solutions driven by your posts on Twitter and Facebook. For me, the decision was kind of easy. I have an childish itch to build stuff. Most enjoyable is to build stuff that i have complete control over - stuff that becomes my world for a couple of hours. But the decision to build a blog originated from the words from another blogger.
 
 ### Your words are wasted  ###
