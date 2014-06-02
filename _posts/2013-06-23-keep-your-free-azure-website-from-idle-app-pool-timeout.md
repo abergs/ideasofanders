@@ -10,6 +10,9 @@ mathjax: null
 featured: false
 published: true
 ---
+
+	Notice: My hosted service has been paused until further notice.
+
 Currently Windows Azure Free/Shared Websites will unload your application from memory after some inactivity. The reasons are quite easy to understand, since there are a lot of free websites getting no traffic, but still wasting system resources at the datacenter. 
 
 In this free/shared mode, you cannot change this behaviour, so in order to keep your application in memory, you need to have some actual traffic.
@@ -98,6 +101,10 @@ Setup a new Scheduled Script to run every 15 minute minute, by going to the Sche
 Your Free Azure Website will keep on rockin in memory with this setup.
 If you prefer to use my pinging service, perform this post (just change the url to your site).
     
+	Notice: My hosted service has been paused until further notice.  
+
+Request:
+
     POST https://dontidlemysite.azure-mobile.net/tables/urls HTTP/1.1
     User-Agent: Fiddler
     Content-type: application/json
