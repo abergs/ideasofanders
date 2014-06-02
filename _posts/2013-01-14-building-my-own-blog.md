@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Building my own blog"
-headline: "Talk about reinventing the wheel..."
+title: Building my own blog
+headline: "Really? In 2013?"
 categories: personal
-tags:
-	- blogging
+tags: 
+  - blogging
+  - jekyll
 comments: true
 mathjax: null
 featured: false
