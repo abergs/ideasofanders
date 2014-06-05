@@ -31,6 +31,7 @@ It's also known as a .NET Class and Interface.
     public class PersonGrain : BaseGrain, IGrain { ... }
 
 In the [theories presented by Orleans](http://orleans.codeplex.com/wikipage?title=Getting%20Started%20with%20Orleans&referringTitle=Orleans%20Documentation), you will read alot about the [Actor Model](http://orleans.codeplex.com/wikipage?title=Core%20Concepts&referringTitle=Getting%20Started%20with%20Orleans). The Actor model share some of it ideas with the object oriented, self encapsulated model.
+
 > "The units of distribution, actors, encapsulating data and computation, are called grains."
 
 So in Orleans, a grain is just a C# class. That you can fetch by:
