@@ -30,7 +30,7 @@ It's also known as a .NET Class and Interface.
 
     public class PersonGrain : BaseGrain, IGrain { ... }
 
-In the [theories presented by Orleans](http://orleans.codeplex.com/wikipage?title=Getting%20Started%20with%20Orleans&referringTitle=Orleans%20Documentation), you will read alot about the [Actor Model](http://orleans.codeplex.com/wikipage?title=Core%20Concepts&referringTitle=Getting%20Started%20with%20Orleans). The Actor model share some of it ideas with the object oriented, self encapsulated model.
+In the [theories presented by Orleans](http://orleans.codeplex.com/wikipage?title=Getting%20Started%20with%20Orleans&referringTitle=Orleans%20Documentation), you will read a lot about the [Actor Model](http://orleans.codeplex.com/wikipage?title=Core%20Concepts&referringTitle=Getting%20Started%20with%20Orleans). The Actor model share some of it ideas with the object oriented, self encapsulated model.
 
 > "The units of distribution, actors, encapsulating data and computation, are called grains."
 
@@ -52,7 +52,7 @@ Think of it like this:
 
 > A Grain is somewhat like a cache with behaviour, which is *always available* as if it would be in memory and you do not have to worry about concurrency
 
-It looks liks it's just calling some funciton on some class that is already instantiated in managed memory with data &mdash; but in fact it's running code on another machine in a cluster which handles it's own state and concurrency.
+It looks liks it's just calling some function on some class that is already instantiated in managed memory with data &mdash; but in fact it's running code on another machine in a cluster which handles it's own state and concurrency.
 
 So Why Orleans? Because if you are not a well faired distributed system expert, building a *distributed*, *scaleable* or *concurrent* system is quite hard. And it is *very* hard when you combine all three words at the same time. 
 
