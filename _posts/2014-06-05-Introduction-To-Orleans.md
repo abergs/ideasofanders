@@ -14,7 +14,7 @@ published: true
 ---
 In this article I want to give you a short introduction to [Project Orleans](http://orleans.codeplex.com).
 
-## What is Project Orleans
+## What is Project Orleans?
 Orleans is a product from the eXtreme Computing division at Microsoft Research. It aims to help developers to develop "Cloud Native" services and it is a combination of **theories** of how you build large distributed applications plus the **tooling and framework** to make it very simple in practice.
 
 > "Orleans targets developers who are not distributed system experts, although our expert customers have found it attractive too" &mdash; Orleans Team
