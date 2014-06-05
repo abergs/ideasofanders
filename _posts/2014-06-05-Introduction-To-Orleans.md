@@ -25,7 +25,7 @@ But why should *I* care?
 
 Think of almost every time you are processing data and you use a `SyncLock`. Or any time you are really thinking of the impact if this code/query would be executed conccurrent while it's still progressing. Or if you just have a ton of work that needs to run concurrent. Like say parsing incoming messages and in realtime notify other parts of your system.
 
-### Say hello to Orleans.IGrain - your new best friend
+## Say hello to Orleans.IGrain - your new best friend
 It's also known as a .NET Class and Interface.
 
     public class PersonGrain : BaseGrain, IGrain { ... }
@@ -46,7 +46,7 @@ Here is the interesting part. The Class Person - do not live where you write thi
 
 **A Grain is single threaded**. That means that even if multiple web requests asks to compute that report it will be done sequentially, avoiding concurrency lockings and other very problematic situations. 
 
-### You still can't explain Orleans to your friend, right?
+## You still can't explain Orleans to your friend, right?
 Think of it like this:
 > A Grain is somewhat like a cache with behaviour, which is *always available* as if it would be in memory and you do not have to worry about concurrency
 
