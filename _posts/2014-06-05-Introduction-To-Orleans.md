@@ -48,6 +48,7 @@ Here is the interesting part. The Class Person - do not live where you write thi
 
 ## You still can't explain Orleans to your friend, right?
 Think of it like this:
+
 > A Grain is somewhat like a cache with behaviour, which is *always available* as if it would be in memory and you do not have to worry about concurrency
 
 It looks liks it's just calling some funciton on some class that is already instantiated in managed memory with data &mdash; but in fact it's running code on another machine in a cluster which handles it's own state and concurrency.
