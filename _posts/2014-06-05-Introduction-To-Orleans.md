@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction To Project Orleans
-headline: "Orleans will rock your world"
+headline: "Orleans will rock your concurrent and distributed world"
 categories: development
 tags: 
   - .net
