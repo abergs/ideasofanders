@@ -1,4 +1,5 @@
 ---
+redirect_from: /idea/15/launching-tabstospacescom-for-your-markdown-code-pastes/
 layout: post
 title: Launching&#58; TabsToSpaces.com. For your markdown code copy pastes
 headline: "Want to post code in markdown easily?"
