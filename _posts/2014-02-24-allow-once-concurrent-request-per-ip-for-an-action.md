@@ -1,5 +1,5 @@
 ---
-redirect_from: /idea/2025/allow-one-concurrent-request-per-ip-for-an-action
+redirect_from: /idea/2025/allow-one-concurrent-request-per-ip-for-an-action/
 layout: post
 title: Allow one concurrent request per IP for an action
 headline: "Hold your horses"
