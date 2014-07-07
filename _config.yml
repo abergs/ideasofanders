@@ -6,7 +6,6 @@ disqus_shortname: ideasofandersberg
 default_bg:       header2.jpg
 search:           true
 share:            true
-safe:             false
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
 readtime:         true
 # Turn on or off the fin animations in the header and footer
@@ -197,6 +196,7 @@ prose:
           element: "checkbox"
           label: "Comments"
           value: false
-
+gems:
+  - jekyll-redirect-from
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
