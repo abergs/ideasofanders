@@ -1,4 +1,5 @@
 ---
+redirect_from: /idea/17/i-dont-know-regex/
 layout: post
 title: I don't know Regex
 headline: "Do you?"
