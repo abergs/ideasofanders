@@ -1,4 +1,5 @@
 ---
+redirect_from: /idea/23/quick-fix-iis-woff-font-file-404-not-found-in-aspnet-mvc/
 layout: post
 title: "Quick fix&#58; IIS .woff font file 404 not found in asp.net mvc"
 headline: "Who's there?"
