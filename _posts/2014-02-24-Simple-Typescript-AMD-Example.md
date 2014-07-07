@@ -1,7 +1,7 @@
 ---
 redirect_from: 
-  - "/idea/1025/simple-typescript-amd-example"
-  - "/idea/1025/simple-typescript-amd-example/"
+  - /idea/1025/simple-typescript-amd-example
+  - /idea/1025/simple-typescript-amd-example/
 layout: post
 title: Simple TypeScript AMD Example
 headline: "This is how my modules look"
