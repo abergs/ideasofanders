@@ -1,4 +1,5 @@
 ---
+redirect_from: /idea/14/keep-your-free-azure-website-from-idle-app-pool-timeout/
 layout: post
 title: Keep your Free Azure Website from idle (app pool timeout)
 headline: "A helpful guide"

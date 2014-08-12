@@ -1,4 +1,5 @@
 ---
+redirect_from: /idea/16/installing-touchpad-driver-on-apple-macbook-pro-running-windows-81/
 layout: post
 title: Installing Touchpad driver on Apple Macbook Pro running Windows 8.1
 headline: "A helpful guide"
