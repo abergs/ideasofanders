@@ -1,5 +1,5 @@
 ---
-redirect_from: /idea/9/net-mvc-4-model-binding-null-on-post
+redirect_from: /idea/9/net-mvc-4-model-binding-null-on-post/
 layout: post
 title: ASP.NET  MVC 4 Model binding null on post
 headline: "Why is message null when message is message"
