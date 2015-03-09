@@ -10,7 +10,7 @@ tags:
   - Owin
   - Nuget
   - HTTP
-published: false
+published: true
 ---
 
 The team at Caspeco needed a way to translate exceptions to nice HTTP responses. The exceptions could be thrown by a custom middleware, within the Web Api framework or in our bussiness logic. 
