@@ -20,6 +20,7 @@ We already make use of a third party emailservice, instead of our own SMTP servi
 
 ## Value proposition for v2
 When building the new service, the following were the goals and value propositions I took into account.
+
 * **Faster**. Allow background processing for faster response times.
 * **More resilient**. Do not fail completely if Postmark is down. Allow retries and corrections for historic emails.
 * **Better Insights**. Ability to see who received their email and who didn't, for example when sending salary specifications. Ability to add custom tags.
