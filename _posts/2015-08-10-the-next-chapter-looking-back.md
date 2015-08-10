@@ -9,6 +9,7 @@ published: true
 ---
 > The future will in one way or another always become the present. Question is - will you chase it?
 
+
 As of today, I am no longer working at Caspeco.
 I'm writing this blog post on board of the commute train between Stockholm and Uppsala. After five years working for Caspeco, it's now time to take the next step in my journey. I will attend the *Digital Data Strategist* program at **[Hyper Island](http://hyperisland.se)** for the next 1½ year.  
 
