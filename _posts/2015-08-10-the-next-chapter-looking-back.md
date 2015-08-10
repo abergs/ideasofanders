@@ -5,7 +5,7 @@ title: "The next chapter: Looking back"
 headline: 
 categories: personal
 tags: 
-published: false
+published: true
 ---
 > The future will in one way or another always become the present. Question is - will you chase it or let it come to you?
 
