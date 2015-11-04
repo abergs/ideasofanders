@@ -15,7 +15,7 @@ So there is a cool feature in HTML5 and it's called `contenteditable`. It's a at
 # Show a styletag in the body
 
 Before diving deeper into contenteditable, there is another weird thing you can do in css.
-You can render your `<style>` tag as a normal element. Let me back up. Normally a style tag is located in the `<head>` with `display:none`. Although not recommended, there is nothing stopping you from changig this to something whackier:
+You can render your `<style>` tag as a normal element. Let me back up. Normally a style tag is located in the `<head>` with `display:none`. Although not recommended, there is nothing stopping you from changing this to something whackier:
 
     <body>
         <style class="hipster-style">
