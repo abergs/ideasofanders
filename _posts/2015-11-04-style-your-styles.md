@@ -72,8 +72,8 @@ Try it out live: http://codepen.io/anon/pen/avjgzE
 Yep, that's meta. HTML5 and CSS allows you style the CSS itself. Well, kind of - CSS allows you to style elments on your page, right? And the `<style>`-tag is an element in your page, as long as you put in the `<body>` instead of `<head>`.
 
 ## Is this useful?
-No. And Yes. This is not something you would throw into your every-day site. But it's kind of cool things you could do with this. For example:
+No. And Yes. This is not something you would throw into your every-day site. But it's kind of cool things you could do with this. 
 
-Great way to let the visitor edit the styles of an CSS example and see what makes what happen - without needing to use a third party sandbox such as JSFiddle or CodePen, or doing a lot of "onChange update this JS mess" etc.
+For example it's a great way to let the visitor edit the styles of an CSS example and see what makes what happen - without needing to use a third party sandbox such as JSFiddle or CodePen, or doing a lot of "onChange update this JS mess" etc.
 
 Happy hipster hacking!
