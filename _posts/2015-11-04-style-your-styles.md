@@ -69,7 +69,7 @@ So I think you know where this is going. Thanks to the amazeballs of HTML5 you c
 
 Try it out live: [http://codepen.io/anon/pen/avjgzE](http://codepen.io/anon/pen/avjgzE)
 
-Yep, that's meta. HTML5 and CSS allows you style the CSS itself. Well, kind of - CSS allows you to style elments on your page, right? And the `<style>`-tag is an element in your page, as long as you put in the `<body>` instead of `<head>`.
+Yep, that's meta. HTML5 and CSS allows you to style the CSS itself. Well, kind of - CSS allows you to style elments on your page, right? And the `<style>`-tag is an element in your page, as long as you put in the `<body>` instead of `<head>`.
 
 ## Is this useful?
 No. And Yes. This is not something you would throw into your every-day site. But it's kind of cool things you could do with this. 
