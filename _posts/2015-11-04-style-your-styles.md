@@ -67,7 +67,7 @@ So I think you know where this is going. Thanks to the amazeballs of HTML5 you c
         <h1>Go ahead - change the background color for this page..</h1>
     </body>
 
-Try it out live: http://codepen.io/anon/pen/avjgzE
+Try it out live: [http://codepen.io/anon/pen/avjgzE](http://codepen.io/anon/pen/avjgzE)
 
 Yep, that's meta. HTML5 and CSS allows you style the CSS itself. Well, kind of - CSS allows you to style elments on your page, right? And the `<style>`-tag is an element in your page, as long as you put in the `<body>` instead of `<head>`.
 
