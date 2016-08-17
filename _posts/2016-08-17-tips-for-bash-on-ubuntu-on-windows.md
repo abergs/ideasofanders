@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: Tips & Trix for Bash On Ubuntu On Windows
+title: Tips and Trix for Bash On Ubuntu On Windows
 headline: Get rocking with bash on windows
 categories: development
 tags: 
