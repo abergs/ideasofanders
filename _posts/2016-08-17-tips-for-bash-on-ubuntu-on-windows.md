@@ -4,8 +4,10 @@ layout: post
 title: Tips & Trix for Bash On Ubuntu On Windows
 headline: Get rocking with bash on windows
 categories: development
-tags: bash ubuntu windows10
-  - 
+tags: 
+  - bash
+  - ubuntu
+  - windows10
 published: true
 ---
 
