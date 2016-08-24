@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SassyStudio: Visual Studio 2013 SASS support
+title: "SassyStudio: Visual Studio 2013 SASS support"
 headline: "Less sassy"
 categories: development
 tags: 

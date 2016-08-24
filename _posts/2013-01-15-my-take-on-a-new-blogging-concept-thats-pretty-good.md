@@ -4,7 +4,7 @@ title: My take on a new "blogging" concept that's pretty good
 headline: "Incubate"
 categories: personal
 tags: 
-	- blogging
+    - blogging
 comments: true
 mathjax: null
 featured: false

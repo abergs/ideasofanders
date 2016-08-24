@@ -4,7 +4,7 @@ title: Trying out Typescript
 headline: This will be big.
 categories: development
 tags: 
-	- Typescript
+ - Typescript
 comments: true
 mathjax: null
 featured: false

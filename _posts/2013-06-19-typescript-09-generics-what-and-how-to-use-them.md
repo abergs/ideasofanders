@@ -1,7 +1,7 @@
 ---
 redirect_from: /idea/12/typescript-09-generics-what-and-how-to-use-them/
 layout: post
-title: TypeScript 0.9 Generics: What? And How to use them
+title: "TypeScript 0.9 Generics: What? And How to use them"
 headline: "Generic type anyone?"
 categories: development
 tags: 

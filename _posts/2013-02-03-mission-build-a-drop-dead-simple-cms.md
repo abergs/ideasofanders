@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mission: Build a drop dead simple CMS
+title: "Mission: Build a drop dead simple CMS"
 headline: "Simply simple, stupid"
 categories: development
 tags: 

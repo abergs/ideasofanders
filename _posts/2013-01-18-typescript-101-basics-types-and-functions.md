@@ -4,7 +4,7 @@ title: Typescript 101&#58; Basics, Types and Functions
 headline: "Todays lesson..."
 categories: development
 tags: 
-	- Typescript
+    - Typescript
 comments: true
 mathjax: null
 featured: false
