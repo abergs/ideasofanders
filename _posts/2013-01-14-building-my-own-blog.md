@@ -1,5 +1,5 @@
 ---
-redirect_from: "/idea/*/"
+redirect_from: "/idea/*"
 layout: post
 title: Building my own blog
 headline: "Really? In 2013?"

@@ -8,6 +8,8 @@ search:           true
 share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
 readtime:         true
+# Specify the average Words per minute. If not defined, 180 will be used
+wpm:				      200
 # Turn on or off the fin animations in the header and footer
 triangleheader:		true
 animated_fins:	  true
@@ -16,8 +18,12 @@ fin_color:        "255,255,255"
 # Change url to your domain. Leave localhost server or blank when working locally.
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
+#<<<<<<< HEAD
 url:       		   http://ideasof.andersaberg.com
 baseurl:			   http://ideasof.andersaberg.com
+#=======
+#url:       		   /hmfaysal-omega-theme
+#>>>>>>> refs/remotes/hmfaysal/gh-pages
 
 # Owner/author information
 owner:
@@ -27,8 +33,9 @@ owner:
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    I make people smile. Not by being funny, No, but by crafting applications and interfaces. I love the web as a platform and is most likely to talk about Typescript, Javascript, .NET and Open Source. Here you will find some of my ideas. Enjoy.
   # Social networking links used in footer. Update and remove as you like.
+#<<<<<<< HEAD
   # To register at HMFAYSAL SOCIAL, visit http://social.hmfaysal.tk
-  twitter:        bigcheeseanders
+  twitter:        andersaberg
   facebook:       
   github:         abergs
   stackexchange:  
@@ -37,6 +44,16 @@ owner:
   flickr:         
   tumblr:         
   hmfaysalsocial: 
+#=======
+#  twitter:        hmfaysal
+#  facebook:       hmfaysal
+#  github:         hmfaysal
+#  stackexchange:  https://stackexchange.com/users/3402032/hossain-mohd-faysal
+#  linkedin:       https://www.linkedin.com/pub/firstname-lastname/12/345/678
+#  instagram:      
+#  flickr:         
+#  tumblr:         
+#>>>>>>> refs/remotes/hmfaysal/gh-pages
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    
 
