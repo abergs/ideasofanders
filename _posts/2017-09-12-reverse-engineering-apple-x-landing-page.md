@@ -2,7 +2,7 @@
 layout: post
 
 title: Reverse engineering the Apple iPhone X landing page
-headline: "Let's learn how to build our own"
+headline: "Let's learn how to build our own Apple Landing Page"
 categories: development
 tags: 
   - HTML
