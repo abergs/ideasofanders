@@ -4,7 +4,7 @@ title: Anders Åberg
 permalink: /about/
 ---
 <figure>
-  <img src="{{ site.url }}/images/abergs.jpg" alt="Anders Åberg">
+  <img src="{{ site.url }}/images/andersaberg.jpg" alt="Anders Åberg">
   <figcaption>Anders Åberg</figcaption>
 </figure>
 

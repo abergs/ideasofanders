@@ -28,7 +28,7 @@ baseurl:			   http://ideasof.andersaberg.com
 # Owner/author information
 owner:
   name:           Anders Åberg
-  avatar:         abergs.jpg
+  avatar:         andersaberg.jpg
   email:          anders@andersaberg.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    I make people smile. Not by being funny, No, but by crafting applications and interfaces. I love the web as a platform and is most likely to talk about Typescript, Javascript, .NET and Open Source. Here you will find some of my ideas. Enjoy.
