@@ -10,10 +10,11 @@ permalink: /about/
 
 Among other things, developer and human with many ideas.
 
-One of three founders at the Engagement Marketing Bureau <a href="http://creativeretail.se">Creative Retail</a>.
-Co-founder to <a href="http://lanternainsights.se">Lanterna</a>.
+I've built [Listen To The Clouds](http://listentothe.cloud/) and like to learn stuff.
 
-Employed as Tech Lead at <a href="http://caspeco.se">caspeco.se</a>.
+What I do: [https://andersaberg.com](https://andersaberg.com)
+
+CTO at <a href="http://caspeco.se">caspeco.se</a>.
 
 <a href="{{ site.url }}">More about me and my ideas</a>
 
