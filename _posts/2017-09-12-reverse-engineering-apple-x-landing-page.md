@@ -11,7 +11,7 @@ tags:
 published: true
 ---
 
-Hello fellow kids & developers! I decided to reverse engineer the Apple iPhone X website to learn how their slick "X" landing page is made. By comining a couple of effects it makes for a very powerful end result.
+Hello fellow kids & developers! I decided to reverse engineer the Apple iPhone X website to learn how their slick "X" landing page is made. By combining a couple of effects it makes for a very powerful end result.
 
 > Note: It's similiar to how I did the [Avicii True Stories](https://aviciitruestories.com/) effect.
 
