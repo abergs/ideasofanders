@@ -50,7 +50,7 @@ So if you are switching from username/password to FIDO2, "none" is perfectly val
 FIDO2 by default always requires user presence. This is to stop silent logins where the User unknowingly logins / authenticate. For Security Keys it might include touching a button on the physical key to prove a (any) human is present.
 
 
-However, a relying party can instead require User Verifcation. This means that the it's not enough for a human to be present but we want to verify that the expected human is present. For example the authenticator can require a pin code, fingerprint scan, iris scan etc.
+However, a relying party can instead require User Verifcation. This means that it's not enough for a human to be present but we want to verify that the expected human is present. For example the authenticator can require a pin code, fingerprint scan, iris scan etc.
 
 ## 4. User verification by PIN and lock out
 This one might be a little out of scope but I was curious. How many retries are allowed for getting the PIN code right?
@@ -64,7 +64,7 @@ The FIDO alliance has published some great testing tools that really helped in f
 ## 6. The community is fantastic
 While documentation outside of the RFC spec is a bit sparse and sometimes hard to find, the community is a great place to ask for guidance.
 
-Special thanks to [Adam Powers](https://twitter.com/apowers313) and [Ackermann Yuriy](https://twitter.com/herrjemand) who has been very friendly and answering questions on twitter, helping me making progress on the library.
+Special thanks to [Adam Powers](https://twitter.com/apowers313) and [Ackermann Yuriy](https://twitter.com/herrjemand) who has been very friendly and answering questions on twitter, helping me make progress on the library.
 
 A couple of months in to the project, [Alex Seigler](https://twitter.com/alexseigler/) sent a pull request contributing lots of verification code for different attestation formats. I really wouldn't have made it this far without the many pull requests that followed from Alex. Thank you Alex and thank you [Open Source](https://github.com/abergs/fido2-net-lib/pulls?q=is%3Apr+is%3Aclosed).
 
