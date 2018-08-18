@@ -7,7 +7,7 @@ categories: development
 tags: 
   - fido2
   - net
-published: false
+published: true
 ---
 
 Over the last couple of months I've been building a [FIDO2 open source server](https://github.com/abergs/fido2-net-lib/).
