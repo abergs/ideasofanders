@@ -17,7 +17,7 @@ This technology is called *FIDO2* (Fast IDentity Online) and was designed by the
 
 # Why it's cool and you will like it
 
-**You never have to use passwords again. Seriously.**  Instead you will have a key - you can think of it like a house key; *but digital and on steroids*. This digital house key can look like a usb stick (shown below) and is usable over NFC and bluetooth, but it can also be directly  built into your device so you need to carry something extra with you. 
+**You never have to use passwords again. Seriously.**  Instead you will have a key - you can think of it like a house key; *but digital and on steroids*. This digital house key can look like a usb stick (shown below) and is usable over NFC and bluetooth, but it can also be directly  built into your device so you don't need to carry something extra with you. 
 
 While I could say that your passwords live in this key, it's not really true. The key uses public/private key cryptography instead of shared secrets (passwords) and your private key never leaves the device. There's a lot more technical things to say here, but we will skip it for now.
 
