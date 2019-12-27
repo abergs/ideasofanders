@@ -20,7 +20,7 @@ A PAT is a alternative to your username/password for authentication when working
 Identityserver has built-in support to generate both JWT (Self-contained) and [Reference Tokens](http://docs.identityserver.io/en/latest/topics/reference_tokens.html) (not self-contained). In contrast to JWTs, a reference token can easily be revoked which is a useful feature for a PAT. IdentityServer also expose introspection endpoints for oAuth API Resources to verify the validity of a Reference Token. We can therefore leverage long-lived reference tokens as PATs.
 
 ### Self-issue reference tokens in code
-First we need an easy way for a user to generate a PAT. Luckily, IdendityServer already comes with tools to [self-issue tokens](http://docs.identityserver.io/en/latest/topics/tools.html). 
+First we need an easy way for a user to generate a PAT. Luckily, IdentityServer already comes with tools to [self-issue tokens](http://docs.identityserver.io/en/latest/topics/tools.html). 
 However, since those APIs generate JWTs I had to create my own tools. Easy enough since the original source code is available on github. Here is my customized version:
 
 
