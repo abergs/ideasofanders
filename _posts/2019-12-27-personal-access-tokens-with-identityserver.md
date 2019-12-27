@@ -245,7 +245,10 @@ Your identityserver should now have a controller to issue and list long lived re
 ## Todo
 By adding code to the controller and the CustomReferencetokenStore you can implement a feature to revoke/remove PATs.
 Abnother thing I'd like to add, to help users managing their PATS is adding LastUsed timestamps to each PAT. This could be done in our custom store. 
+
 Depending on your use case, allowing a user to customize what scopes are added to the token could be very powerful and I would encourage it. This would enable a user to issue read-only tokens, or to give a script access to only a certain feature instead of everything.
 
 ## Summary
-We've now seen how IdentityServer features could be re-used to enable long lived Personal Access Tokens. PATs are a great *alternative* to oAuth flows when you need to authenticate in scripts or custom made automation where oAuth support is inconvenant. The PATs we have generated are long lived and easy to revoke. They can contain custom claims and meta-info. Please reach out with any feedback or suggestions [@andersaberg](https://twitter.com/andersaberg)
+We've now seen how IdentityServer features could be re-used to enable long lived Personal Access Tokens. PATs are a great *alternative* to oAuth flows when you need to authenticate in scripts or custom made automation where oAuth support is inconvenant.
+
+The PATs we have generated are long lived and easy to revoke. They can contain custom claims and meta-info. Please reach out with any feedback or suggestions [@andersaberg](https://twitter.com/andersaberg)
