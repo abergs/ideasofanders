@@ -205,6 +205,19 @@ Since the default implementation lacks methods to retrieve all tokens and suppor
         // ommitted for brevity
 ```
 
+## Adjusting TokenLength restrictions (optional)
+
+Although not required, depending on how long your meta info is (and if it's user input) you might need to allow some extra length on token handles.
+
+Just adjust the options like this when configuring IdentityServer in `Startup.cs`:
+
+```csharp
+services.AddIdentityServer(options => {
+                // Allow extra space for descriptions in our custom reference token handles
+                options.InputLengthRestrictions.TokenHandle = 150; // default is 100
+            })
+```
+
 ## IPersistedGrantStore
 Since you probably want your PATs to be active after a restart of your IdentityServer you need to persist them. Luckily IdentityServer already persists your reference tokens using IPersistedGrantStore. However, by default it's only in memory. I implemented a IPersistedGrantStore to use SQL. You can read how to do that here: [identityserver4-without-entityframework](https://mcguirev10.com/2018/01/02/identityserver4-without-entity-framework.html)
 
