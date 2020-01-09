@@ -2,7 +2,7 @@
 layout: post
 
 title: How to collect and visualize performance counters for ASP.NET on Azure App Services
-headline: A guide
+headline: A small guide on performance counters
 categories: development
 tags: 
   - aspnet
