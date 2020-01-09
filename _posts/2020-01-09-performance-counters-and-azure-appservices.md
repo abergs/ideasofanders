@@ -11,7 +11,7 @@ tags:
 published: true
 ---
 
-I've recently had the unfortunate task to diagnose and monitor memory and GC related events for our asp.net api running on .net 4.7.2 in Azure App Services (Azure Web app). Information and examples on how to do is hard to come by and perhaps not relevant due to the difference in azure appservices environement, so I thought I'd summarize my experience in 2019. *Note: I'm not sure if this post applies to .net core.*
+I've recently had the unfortunate task to diagnose and monitor memory and GC related events for our asp.net api running on .net 4.7.2 in Azure App Services (Azure Web app). Information and examples on how to do this is hard to come by and perhaps not relevant due to the difference in azure appservices environement, so I thought I'd summarize my experience in Jan 2020. *Note: I'm not sure if this post applies to .net core.*
 
 
 ## What Performance Counters are interesting?
@@ -29,7 +29,7 @@ The variables are:
 * WEBSITE_COUNTERS_ALL - Returns a JSON object containing the combination of the other three.
 
 
-Since the source was last updated in 2018, I visited my site in Kudo (*https://example.scm.azurewebsites.net/DebugConsole/?shell=powershell*) and executed `$env:WEBSITE_COUNTERS_ALL`
+Since the source was last updated in April 2018, I visited my site in Kudo (*https://example.scm.azurewebsites.net/DebugConsole/?shell=powershell*) and executed `$env:WEBSITE_COUNTERS_ALL`
 
 ```json
 {
@@ -236,14 +236,14 @@ To do this, I modified my `ApplicationInsights.config` file.
     <!-- ...omitted for brevity -->
 ```
 
-With this config I could publish the webapp to azure. As you can see I've added number of Performance Counters without referencing the environment variables I mentionend. That's because Application Insights has support to automatically translate these counter names and get the data from the the environment variables.
+With this config I could publish the webapp to azure. As you can see, I've added a number of Performance Counters without referencing the environment variables I mentionend earlier. That's because Application Insights has support to automatically translate these counter names and get the data from the the environment variables.
 
-**But what counters dose Application Insights support and what are they named?** Which environment variables is used for what counter? To find out about this I had to dig through the [source code](https://github.com/microsoft/ApplicationInsights-dotnet) of the SDK to find the `CounterFactory.cs` class that [lists all performance counters supported in asp.net](https://github.com/microsoft/ApplicationInsights-dotnet/blob/35e4bb2624bcbe2af9fb5d1e724b28ffd49c460c/WEB/Src/PerformanceCollector/Perf.Shared/Implementation/WebAppPerformanceCollector/CounterFactory.cs)
+**But what counters does Application Insights support and what are they named?** Which environment variables is used for what counter? To find out about this I had to dig through the [source code](https://github.com/microsoft/ApplicationInsights-dotnet) of the SDK to find the `CounterFactory.cs` class that [lists all performance counters supported in asp.net](https://github.com/microsoft/ApplicationInsights-dotnet/blob/35e4bb2624bcbe2af9fb5d1e724b28ffd49c460c/WEB/Src/PerformanceCollector/Perf.Shared/Implementation/WebAppPerformanceCollector/CounterFactory.cs)
 
 
 ## Querying and visualizing the Performance counters
 
-To check if the metrics are reported I turn to my Application Insights Logs (Analytics) and ran the following query to see which counters were being reported:
+To check if the metrics are reported correctly I turn to my Application Insights Logs (Analytics) and ran the following query to see which counters were being reported:
 
 ```kql
 performanceCounters
@@ -298,3 +298,7 @@ performanceCounters
 ```
 
 !["% CPU Time in GC over time"](/images/perfCounters/cputime.png)
+
+## Final notes
+
+I hope this helped you if you are in the same position I was in. If you think I've gotten anything backawrds, please tell me so on twitter [@andersaberg](https://twitter.com/andersaberg). Feedback is always welcome.
