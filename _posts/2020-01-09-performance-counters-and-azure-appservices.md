@@ -11,11 +11,20 @@ tags:
 published: true
 ---
 
-I've recently had the unfortunate task to diagnose and monitor memory and GC related events for our asp.net api running on .net 4.7.2 in Azure App Services (Azure Web app). Information and examples on how to do this is hard to come by and perhaps not relevant due to the difference in azure appservices environement, so I thought I'd summarize my experience in Jan 2020. *Note: I'm not sure if this post applies to .net core.*
+I've recently had the unfortunate task to diagnose and monitor memory and GC related events for our asp.net api running on .net 4.7.2 in Azure App Services (Azure Web app). Information and examples on how to do this is hard to come by and perhaps not relevant due to the difference in azure appservices environment, so I thought I'd summarize my experience in Jan 2020. *Note: I'm not sure if this post applies to .net core.*
 
 
 ## What Performance Counters are interesting?
-I don't know about you, but this is the first time I'm using Performance Counters although I've "heard about them" before. So what performance counters exist and what do they tell us? I found [this documentation](https://docs.microsoft.com/en-us/dotnet/framework/debug-trace-profile/performance-counters) very helpful in listing and understanding what they mean.
+I don't know about you, but this is the first time I'm using Performance Counters although I've "heard about them" before. So what performance counters exist and what do they tell us? I found [this documentation](https://docs.microsoft.com/en-us/dotnet/framework/debug-trace-profile/performance-counters) 
+very helpful in listing and understanding what they mean.
+
+When diagnosing memory, I found these blog posts helpful:
+
+* [Optimizing garbage collection in a high load .NET service (2019)](https://medium.com/swlh/optimizing-garbage-collection-in-a-high-load-net-web-service-3bb620b444a7)
+* [The Dangers of the Large Object Heap (2009)](https://www.red-gate.com/simple-talk/dotnet/net-framework/the-dangers-of-the-large-object-heap/)
+* [No More Memory Fragmentation on the .NET Large Object Heap (2013)](https://docs.microsoft.com/en-us/archive/blogs/mariohewardt/no-more-memory-fragmentation-on-the-net-large-object-heap)
+* [A .NET Garbage Collection Mystery](https://www.dynatrace.com/news/blog/net-performance-analysis-a-net-garbage-collection-mystery/)
+
 
 ## Azure AppServices does not expose all Performance Counters
 
@@ -23,13 +32,15 @@ Because Azure AppServices are running in a sandbox environment, we are not allow
 
 The variables are:
 
-* WEBSITE_COUNTERS_ASPNET - Returns a JSON object containing the ASP.NET perf counters.
-* WEBSITE_COUNTERS_APP - Returns a JSON object containing sandbox counters.
-* WEBSITE_COUNTERS_CLR - Returns a JSON object containing CLR counters.
-* WEBSITE_COUNTERS_ALL - Returns a JSON object containing the combination of the other three.
+* `WEBSITE_COUNTERS_ASPNET` - Returns a JSON object containing the ASP.NET perf counters.
+* `WEBSITE_COUNTERS_APP` - Returns a JSON object containing sandbox counters.
+* `WEBSITE_COUNTERS_CLR` - Returns a JSON object containing CLR counters.
+* `WEBSITE_COUNTERS_ALL` - Returns a JSON object containing the combination of the other three.
 
 
-Since the source was last updated in April 2018, I visited my site in Kudo (*https://example.scm.azurewebsites.net/DebugConsole/?shell=powershell*) and executed `$env:WEBSITE_COUNTERS_ALL`
+Since the source was last updated in April 2018, I visited my site in Kudo (*https://example.scm.azurewebsites.net/DebugConsole/?shell=powershell*) and executed `$env:WEBSITE_COUNTERS_ALL` to see what counters are available in 2020.
+
+Performance counters in ASP.NET Azure App Services (2020):
 
 ```json
 {
@@ -236,7 +247,7 @@ To do this, I modified my `ApplicationInsights.config` file.
     <!-- ...omitted for brevity -->
 ```
 
-With this config I could publish the webapp to azure. As you can see, I've added a number of Performance Counters without referencing the environment variables I mentionend earlier. That's because Application Insights has support to automatically translate these counter names and get the data from the the environment variables.
+With this config I could publish the webapp to azure. As you can see, I've added a number of Performance Counters without referencing the environment variables I mentioned earlier. That's because Application Insights has support to automatically translate these counter names and get the data from the the environment variables.
 
 **But what counters does Application Insights support and what are they named?** Which environment variables is used for what counter? To find out about this I had to dig through the [source code](https://github.com/microsoft/ApplicationInsights-dotnet) of the SDK to find the `CounterFactory.cs` class that [lists all performance counters supported in asp.net](https://github.com/microsoft/ApplicationInsights-dotnet/blob/35e4bb2624bcbe2af9fb5d1e724b28ffd49c460c/WEB/Src/PerformanceCollector/Perf.Shared/Implementation/WebAppPerformanceCollector/CounterFactory.cs)
 
@@ -301,4 +312,4 @@ performanceCounters
 
 ## Final notes
 
-I hope this helped you if you are in the same position I was in. If you think I've gotten anything backawrds, please tell me so on twitter [@andersaberg](https://twitter.com/andersaberg). Feedback is always welcome.
+I hope this helped you if you are in the same position I was in. If you think I've gotten anything backwards, please tell me so on twitter [@andersaberg](https://twitter.com/andersaberg). Feedback is always welcome.
