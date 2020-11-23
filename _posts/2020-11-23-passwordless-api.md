@@ -183,4 +183,4 @@ public async Task<IActionResult> TokenVerify(string token)
     return result;
 }
 ```
-That's it! You can now allow users to sign in using whatever security mechanism is available on there device (FaceID, TouchID, Windows Hello etc).
+That's it! You can now allow users to sign in using whatever security mechanism is available on their device (FaceID, TouchID, Windows Hello etc).
