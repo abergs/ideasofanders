@@ -15,8 +15,11 @@ published: true
 
 Using the [Passwordless API](https://beta.passwordless.dev/) we can add secure and fast sign in to our existing asp.net apps. The API allows us to add sign in with FaceID, Fingerprint scan or other native methods like the android lock screen or Windows Hello. It's make it easy to consume the complex  browser standards WebAuthn and FIDO2. 
 
+
+Example on iOS 14:  
 ![Sign in with FaceID - asp.net](https://user-images.githubusercontent.com/357283/100014365-8e627300-2dd6-11eb-8e3d-db7566adfacb.png)
 
+Exampe of Windows 10:  
 ![Sign in with Windows Hello - asp.net](https://user-images.githubusercontent.com/357283/100014246-696e0000-2dd6-11eb-93c0-996ab963df42.png)
 
 
