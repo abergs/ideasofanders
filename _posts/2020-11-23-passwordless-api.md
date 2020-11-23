@@ -13,7 +13,7 @@ published: true
 
 # Sign in with fingerprint - asp.net
 
-Using the [Passwordless API](https://beta.passwordless.dev/) we can add secure and fast sign in to our existing asp.net apps. The API allows us to add sign in with FaceID, Fingerprint scan or other native methods like the android lock screen or Windows Hello. It's make it easy to consume the complex  browser standards WebAuthn and FIDO2. 
+Using the [Passwordless API](https://beta.passwordless.dev/) we can add secure and fast sign in to our existing asp.net apps. The API allows us to add sign in with FaceID, Fingerprint scan or other native methods like the android lock screen or Windows Hello. It makes it easy to consume the complex browser standards WebAuthn and FIDO2. 
 
 
 Example on iOS 14:  
@@ -25,7 +25,7 @@ Exampe of Windows 10:
 
 ## Who is this guide for?
 
-It's for you, a asp.net developer who want to add make your existing web app **more secure** and **faster** to sign in to. I assume you already have a existing user database, probably using username / password.
+It's for you, a asp.net developer who want to make your existing web app **more secure** and **faster** to sign in to. I assume you already have an existing user database, probably using username / password.
 
 During this blog post we will implement passwordless sign in from start to finish, using the passwordless api.
 
