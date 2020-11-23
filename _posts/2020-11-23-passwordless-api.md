@@ -148,7 +148,7 @@ Now that we can successfully register a passwordless credential, you might want 
     document.getElementById('passwordless-signin').addEventListener('click', PasswordlessSignin);
 </script>
 ```
-Similar to when registering a client, we need to add some backend code to verify what user signed in.
+Similar to when registering a client, we need to add some backend code to verify the token and user.
 
 
 ```csharp
