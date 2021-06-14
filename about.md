@@ -14,7 +14,7 @@ I've built [Listen To The Clouds](http://listentothe.cloud/) and like to learn s
 
 What I do: [https://andersaberg.com](https://andersaberg.com)
 
-CTO at <a href="http://caspeco.se">caspeco.se</a>.
+CTO at <a href="https://caspeco.se">caspeco.se</a>.
 
 <a href="{{ site.url }}">More about me and my ideas</a>
 

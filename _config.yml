@@ -19,8 +19,8 @@ fin_color:        "255,255,255"
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
 #<<<<<<< HEAD
-url:       		   http://ideasof.andersaberg.com
-baseurl:			   http://ideasof.andersaberg.com
+url:       		   https://ideasof.andersaberg.com
+baseurl:			   https://ideasof.andersaberg.com
 #=======
 #url:       		   /hmfaysal-omega-theme
 #>>>>>>> refs/remotes/hmfaysal/gh-pages
